@@ -1,0 +1,7 @@
+streamlit
+nltk
+scikit-learn
+pandas
+tensorflow
+tensorflow-hub
+Pillow

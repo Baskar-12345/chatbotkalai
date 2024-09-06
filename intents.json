@@ -1,0 +1,93 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "How are you?",
+                "What's up?",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How's it going?",
+                "Hey! What can I do for you today?",
+                "Good to see you! How can I help?",
+                "Greetings! What’s on your mind?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care",
+                "Have a nice day",
+                "Catch you later"
+            ],
+            "responses": [
+                "Goodbye! Have a fantastic day!",
+                "See you later! If you need anything, just let me know.",
+                "Take care! I'm here if you need more help.",
+                "Farewell! Hope to chat with you again soon.",
+                "Catch you later! Don’t hesitate to return if you have more questions."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "I appreciate it",
+                "Thanks a lot",
+                "Thank you very much",
+                "Thanks for your help"
+            ],
+            "responses": [
+                "You're very welcome!",
+                "No problem at all!",
+                "I'm glad I could help!",
+                "Anytime! Feel free to ask if you need more.",
+                "You’re welcome! If there’s anything else, just let me know."
+            ]
+        },
+        {
+            "tag": "image_recognition",
+            "patterns": [
+                "What is this?",
+                "Can you identify this image?",
+                "Tell me about this image",
+                "What can you see in this picture?",
+                "Describe this image"
+            ],
+            "responses": [
+                "Let me take a closer look at this image...",
+                "Analyzing the image now. Please hold on.",
+                "I’m examining the contents of the image. One moment, please.",
+                "Processing the image to identify its contents...",
+                "Let me see what I can find about this image for you."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "I don't understand",
+                "Can you explain that?",
+                "I'm not sure what you mean",
+                "Could you clarify?",
+                "I didn't get that"
+            ],
+            "responses": [
+                "I’m sorry, I didn’t quite catch that. Could you rephrase?",
+                "I didn’t understand that. Can you explain it in a different way?",
+                "Could you clarify what you mean? I’m here to help.",
+                "It seems I didn’t get that. Can you provide more details?",
+                "I’m not sure I understand. Could you please elaborate?"
+            ]
+        }
+    ]
+}
